@@ -1,0 +1,10 @@
+.ad-wrapper{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.ad-wrapper > span {
+    line-height: 80px;
+    font-size: 1.2rem;
+}
