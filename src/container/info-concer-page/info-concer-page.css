@@ -1,0 +1,63 @@
+.address-wrapper1 {
+    height: auto;
+    width: 100%;
+    margin-bottom: 55px;
+    background-color: #e1242a;
+}
+
+.address-top1 {
+    height: 170px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 85px;
+}
+
+.confirm-info {
+    width: 100%;
+}
+.info-list{
+    width: 80%;
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+.info-list > span {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 60px;
+    color: #222;
+}
+.button-bottom{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+.button-bottom > .button-left {
+    width: 50%;
+    float: left;
+    height: 50px;
+    background-color: #DCDCDC;
+    text-align: center;
+}
+
+.button-bottom > .button-left > span{
+    color: #222;
+    line-height: 50px;
+}
+
+.button-bottom > .button-right{
+    width: 50%;
+    float: right;
+    height: 50px;
+    background-color: #e1242a;
+    text-align: center;
+}
+
+.button-bottom > .button-right > span{
+    color: #fff;
+    line-height: 50px;
+}
