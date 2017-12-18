@@ -1,6 +1,7 @@
 .wrapper {
     width: 100%;
     height: auto;
+    margin-bottom: 50px;
 }
 
 .address-select {
@@ -8,7 +9,35 @@
     height: auto;
     margin: 0 auto;
 }
-.WhiteSpace{
-    height: 5px;
-    width: auto;
+
+.next-button {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #e1242a;
+    position: fixed;
+    bottom: 0;
+}
+
+.next-button > span {
+    line-height: 50px;
+    color: #fff;
+}
+
+.arrive-time {
+    height: 100px;
+}
+
+input[type="radio"] {
+    margin: 3px 3px 0 5px;
+    display: none;
+}
+
+label {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+label.checked {
+    color: red;
 }

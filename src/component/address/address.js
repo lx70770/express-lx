@@ -3,13 +3,21 @@ import React from 'react';
 import './address.css';
 
 class Address extends React.Component{
+
+    constructor(props){
+        super(props);
+        this.state = {
+            address: '知园小区菜鸟驿站'
+        }
+    }
+
     render() {
         return (
             <div className="address-wrapper">
                 <div className="address-top">
                     <span>你取件的地方在:</span>
                     <div>
-                        <span>知园小区菜鸟驿站</span>
+                        <span>{this.state.address}</span>
                     </div>
                 </div>
                 <div className="address-bottom">
